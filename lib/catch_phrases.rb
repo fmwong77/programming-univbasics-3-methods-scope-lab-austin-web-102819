@@ -1,11 +1,11 @@
-status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+$status = 'Thank You Mario! But Our Princess Is In Another Castle!'
 def mario
   phrase = "It's-a me, Mario!"
   p phrase
 end
 
 def toadstool
-  p status
+  p $status
 end
 
 def link
