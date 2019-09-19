@@ -5,7 +5,7 @@ def mario
 end
 
 def toadstool
-  p $status
+  puts $status
 end
 
 def link
@@ -13,5 +13,5 @@ def link
 end
 
 def any_phrase(phrase)
-  p phrase
+  puts phrase
 end
