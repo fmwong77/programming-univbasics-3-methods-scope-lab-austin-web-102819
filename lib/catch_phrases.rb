@@ -1,11 +1,11 @@
 $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
 def mario
   phrase = "It's-a me, Mario!"
-  return phrase
+  p phrase
 end
 
 def toadstool
-  return $status
+  p $status
 end
 
 def link
@@ -13,5 +13,5 @@ def link
 end
 
 def any_phrase(phrase)
-  return phrase
+  p phrase
 end
